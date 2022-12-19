@@ -1,0 +1,8 @@
+{
+	"name": "highfleet-ships",
+	"version": "0.0.1",
+	"title": "Highfleet Ships",
+	"author": "Phoniez",
+	"description": "Adds the \"airships\" from the game Highfleet, as well as a new oil refining chain and more.",
+	"factorio_version": "1.1"
+}
