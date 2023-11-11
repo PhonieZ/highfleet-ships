@@ -126,7 +126,7 @@ data:extend({--  Recipes
         category="gas-mixing",
         energy_required=75,
         enabled=true,
-        order="ad",
+        order="ac",
         subgroup="fuel-production",
         icon="__highfleet-ships__/graphics/icons/crude-gas-mixing.png",
         icon_size=64,
@@ -139,7 +139,7 @@ data:extend({--  Recipes
         },
         results=
         {
-            {type="fluid",name="crude-fuel",amount=120}
+            {type="fluid",name="crude-fuel",amount=150}
         }
     },
     {--  Light Oil Steam Cracking
@@ -148,7 +148,7 @@ data:extend({--  Recipes
         category="steam-cracking",
         energy_required=20,
         enabled=true,
-        order="ac",
+        order="ad",
         subgroup="fuel-production",
         icon="__highfleet-ships__/graphics/icons/light-oil-steam-cracking.png",
         icon_size=128,
@@ -183,6 +183,28 @@ data:extend({--  Recipes
         {
             {type="fluid",name="refined-fuel",amount=75},
             {amount=6,name="copper-catalyst",probability=0.95}
+        }
+    },
+    {--  Ethylene Gas Mixing
+        name="ethylene-gas-mixing",
+        type="recipe",
+        category="gas-mixing",
+        energy_required=75,
+        enabled=true,
+        order="af",
+        subgroup="fuel-production",
+        icon="__highfleet-ships__/graphics/icons/ethylene-gas-mixing.png",
+        icon_size=64,
+        main_product="",
+        emissions_multiplier=4,
+        ingredients=
+        {
+            {type="fluid",name="light-oil",amount=90},
+            {type="fluid",name="ethylene-gas",amount=60}
+        },
+        results=
+        {
+            {type="fluid",name="light-oil",amount=105}
         }
     },
 })

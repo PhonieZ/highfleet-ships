@@ -11,7 +11,7 @@ data:extend({--  Items
         icon="__highfleet-ships__/graphics/icons/placeholder.png",
         icon_size=64,
         name="gas-refinery",
-        stack_size=10,
+        stack_size=15,
         type="item",
         subgroup="production-machine",
         place_result="gas-refinery"
@@ -20,7 +20,7 @@ data:extend({--  Items
         icon="__highfleet-ships__/graphics/icons/placeholder.png",
         icon_size=64,
         name="fractionating-spire",
-        stack_size=5,
+        stack_size=10,
         type="item",
         subgroup="production-machine",
         place_result="fractionating-spire"
@@ -29,18 +29,18 @@ data:extend({--  Items
         icon="__highfleet-ships__/graphics/icons/placeholder.png",
         icon_size=64,
         name="pyrolysis-plant",
-        stack_size=7,
+        stack_size=10,
         type="item",
         subgroup="production-machine",
         place_result="pyrolysis-plant"
     },
-    {--  Lmfao  
-        icon="__highfleet-ships__/graphics/icons/lmfao.png",
-        icon_size=128,
-        name="lmfao",
-        stack_size=1,
+    {--  Gas Mixer   
+        icon="__highfleet-ships__/graphics/icons/placeholder.png",
+        icon_size=64,
+        name="gas-mixer",
+        stack_size=5,
         type="item",
         subgroup="production-machine",
-        place_result="generator"
+        place_result="gas-mixer"
     },
 })
